@@ -3,9 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio</title>
+    <style>
+        body
+        {
+            background-color: #04080b;
+            color: #dbdbdb;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        h1
+        {
+            font-size: 75px;
+            text-align: left;
+            background-color: #007ba7;
+            width: 10%;
+            position: relative;
+            left: 200px;
+            top: 50px;
+        }
+        h3
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            text-align: left;
+            position: relative;
+            width: 40%;
+            left: 150px;
+        }
+        img
+        {
+            width: auto;
+            display: block;
+            margin-left: auto;
+            border-radius: 100%;
+            position: absolute;
+            right: 150px;
+            top: 50px;
+        }
+        #fundo
+        {
+            background-color: #6A006A;
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            right: 300px;
+            top: 150px;
+        }
+        h5
+        {
+            font-size: 25px;
+            text-align: center;
+            margin-top: 150px;
+        }
+        u, a
+        {
+            font-size: 20px;
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            color: #dbdbdb;
+            text-decoration: none;
+        }
+        ul
+        {
+            position: absolute;
+            list-style: none;
+            right: 100px;
+            bottom: -200px;
+        }
+        #li3
+        {
+            font-size: 16px;
+        }
+        #li2
+        {
+            font-size: 18px;
+        }
+        #li1
+        {
+            font-size: 24px;
+        }
+    </style>
 </head>
 <body>
     <h1>Pedro Gomes Pereira</h1>
+    <p id="fundo"></p>
+    <img id="img" src="img/eu.jpg" alt="foto">
     <h5>Indice:</h5>
     <u>
         <li><a href="#img">Foto</a></li>
@@ -14,13 +101,12 @@
         <li><a href="#blog">Blog favorito</a></li>
     </u>
     <br>
-    <img id="img" src="img/eu.jpg" alt="" width="200px">
     <h3 id="des">Tenho 20 anos, nasci e cresci em São Paulo Capital</h3>
     <br>
     <ul id="hab">
-        <li><b>Photoshop</b></li>
-        <li><i>Edição audio visual</i></li>
-        <li>HTML, CSS, JS</li>
+        <li id="li1"><b>Photoshop</b></li>
+        <li id="li2"><i>Edição audio visual</i></li>
+        <li id="li3">HTML, CSS, JS</li>
         <li>Unreal Engine 4</li>
     </ul>
     <br>
